@@ -1,0 +1,62 @@
+
+
+#home{ height: 700px;
+    min-height: 100%;
+   background-image:url(./imagens/wallpaperbetter.com_4096x2304.jpg) ;
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center center;
+
+}
+.corbranca{
+    color: white;
+}
+
+#eu{
+margin-top: 100px;
+
+text-align: center;
+
+
+}
+#proposta{
+height: 700px;
+
+}
+
+#video{
+    
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+   
+}
+#textovideo {
+    position: absolute;
+    top: 170%;
+    left: 40%;
+    transform: translate(-65%, -60%);
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    z-index: 1;}
+    .altura{
+        height: 500px;
+    }
+    #foot{
+       
+        text-align: center;
+
+    }
+
+          @media (max-width: 1080px) {
+            #textovideo {
+              top: 80%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              padding: 10px;}

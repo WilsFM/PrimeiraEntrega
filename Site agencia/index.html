@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <head> 
+      <!--inicio navbar-->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary"data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="# home">Via Univreso</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#proposta">Nossa Proposta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#cartoes">Pacotes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#fale">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#eu">Sobre nos</a>
+              </li>
+              
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </head>
+   
+ <!--inicio navbar-->
+  <div id="home"class="text-bg-dark p-3 container-fluid" >  
+   <p class="h1 text-center my-5"> Conosco o universo é do tamanho da sua imaginação</p>
+   <p class="h6 text-center my-5"> Deslumbre-se com as coisas incriveis de nosso universo indo aonde a maioria pode apenas sonhar</p>
+ <!--inicio nossa proposta-->   
+  </div>
+
+  <div id="proposta" class="bg-dark corbranca   container-fluid"  >
+   <div id="textovideo"> 
+  <p>Nascemos com o objetivo de proporcionar as melhores <h2>Experiencias de uma vida,</h2></p>
+  <br><br>
+  <p > Pois temos a convicção de que tudo que somo e levamos, são nossas lembranças.</p>
+    <p><h4>Nos de as mãos e venha construir lembranças e memorias inesqueciveis </h4></p>
+  
+    
+  <br>
+  
+  </div class="container-fluid">
+    <video src="./imagens/01.mp4"  autoplay loop id="video"  id="video"></video>
+
+    </div>
+  <!--fim nossa proposta--> 
+<!--inicio do carrousel <---->
+
+<div class="bg-dark" >
+  <div id="carouselExampleDark" class="carousel  " >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./imagens/carro1.jpg" class="d-block w-100" alt="Jupiter" height="400px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Conheça Jupiter</h5>
+          <p>Um planeta que é um mini sistema solar devido a sua enorme quantidade de luas</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagens/carro2.PNG" class="d-block w-100" alt="marte"height="400px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Marte </h5>
+          <p>Marte conhecido como planeta vermelho é o planeta mais parecido com nossa terra</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/carro3.jpg" class="d-block w-100" alt="Saturno" height="400px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5> Sasturno </h5>
+          <p>Planeta com incrivel conjutos de aneis e inumera luas </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<!--fim do carrousel <---->
+<!--inicio cards 1 <---->
+<div id="cartoes" class="card-group mx-5 " >
+<div class="card text-bg-dark mb-1"  style="width: 18rem; ">
+    <img src="./imagens/aneis de saturno.PNG" class="card-img-top" alt="viagem a saturno"  height="236">
+    <div class="card-body">
+      <h5 class="card-title">Cruzeiro espacial a saturno</h5>
+      <p class="card-text">Viagem em um cruzeiro espacial e permanesa uma semana na orbita de saturno apreciando seus incriveis aneis
+        </p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+      <P>Em até 12 vezes</P>
+    </div>
+  </div>
+  <div class="card text-bg-dark mb-1"  style="width: 18rem;">
+    <img src="./imagens/titan.PNG" class="card-img-top" alt="Titan"  height="236">
+    <div class="card-body">
+      <h5 class="card-title">Titan</h5>
+      <p class="card-text">Sobrevoe  lua de Saturno  Titanum ambiente tão frio que possui chuva e mares metano, onde a agua esta tão solida quanto as rochas terrestres</p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+      <P>Em até 12 vezes</P>
+    </div>
+  </div>
+  <div class="card text-bg-dark mb-1"  style="width: 18rem;">
+    <img src="./imagens/monte olimppo.PNG" class="card-img-top" alt="Valles Marineres"  height="236">
+    <div class="card-body">
+      <h5 class="card-title">Monte Olimpo</h5>
+      <p class="card-text">Se desafie a escala o vulcão estinto mais alto do sistema solar, com altura aproximada a 3 monte everest </p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+      <P>Em até 12 vezes</P>
+    </div>
+  </div>
+</div>
+</div>
+<!--fim cards 1 <---->
+<!--inicio cards 2 <---->
+<div id="cartoes2" class="card-group mx-5">
+<div class="card text-bg-dark mb-3" style="width: 18rem;">
+    <img src="./imagens/marte marinevale.PNG" class="card-img-top" alt="Valles marineres" height="236">
+    <div class="card-body">
+      <h5 class="card-title">Monte olimpo</h5>
+      <p class="card-text">Venha fazer uma trilha pelos incriveis vales marineres, o maior sistema de canios conhecido</p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+   <P>Em até 12 vezes</P>
+    </div>
+</div>
+<div class="card text-bg-dark mb-3"  style="width: 18rem;">
+    <img src="./imagens/olho de jupiter.jpg" class="card-img-top" alt="Olho de Jupiter" class="imgcard" height="236">
+    <div class="card-body">
+      <h5 class="card-title">Olho de Jupiter</h5>
+      <p class="card-text">Viagem em um cruzeiro espacial e permanesa uma semana na orbita Jupiter conhecendo o mancha vermelha, uma montruosa termpestade que possui o diametro de 3 planetas terra</p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+      <P>Em até 12 vezes</P>
+    </div>
+</div>
+<div class="card text-bg-dark mb-3"  style="width: 18rem;">
+    <img src="./imagens/caminha lunar.jpg" class="card-img-top" alt="Trilha lunar"  height="236">
+    <div class="card-body">
+      <h5 class="card-title">Trilha Lunar</h5>
+      <p class="card-text">Saia da base internacinal lunar e faça uma trilha até o local onde o homem pousou na lua pela primeira vez com nosso planeta azul no horizonte</p>
+      <a href="#" class="btn btn-primary">Reservar</a>
+      <P>Em até 12 vezes</P>
+    </div>
+</div>
+
+</div>
+<!--fim cards 2 <---->
+<!--inicio fale conosco <---->
+<div class="bg-dark p-5 corbranca container-fluid" id="fale">
+
+ <H3> Deseja Planos personalizados, ou propostas especificas para sua empresa </H3>
+
+  <P>Entre em contato </P>
+  <br><br><br>
+
+    <form  class="row g-5 corbranca altura">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Cidade</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Estado</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-2">
+          <label for="telefone" class="form-label">Telefone</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+        </div>
+        <div class="col-12 " >
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+</div>
+<!--fim fale conosco <---->   
+<!--inicio quem somos-->
+<div class="conteiner-fluid" >
+  <br> 
+  <h2> Quem somos: </h2>
+   <br><br>
+  <div class="row" id= "eu">
+        <div class="col-lg-4">
+            <img class="rounded-circle" src="./imagens/wilson .png" alt="Wilson" width="140" height="140">
+            <h2>CEO e Fundador </h2>
+            <p> do Via Universo, Wilson é apaixonado por astronomia e tecnologia, resolvel navegar pela vastidão do universo apos os conselhos de seu grande amigo Chuck Noland  que conheceu em uma ilha paradisiaca no sul do pacifico </p>
+
+      
+    </div><!-- /.row -->
+</div>
+<!-- fim quem somos-->
+<footer class="text-bg-dark p-3 container-fluid">
+ <P id="foot"> Via Universo 2023</P>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</html>
